@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Epilogue" ,sans-serif;
+}
+
+body{
+    background-color: hsl(1, 0, 95);
+}
+
+h1,h2,h3{
+    color: rgb(131, 192, 193);
+}
+
+header{
+    background-color: rgb(108, 34, 166);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    margin-right: auto;
+}
+
+header img{
+    width: 60px;
+    margin: 10px;
+    margin-left: 50px;
+    align-items: center;
+    justify-self: center;
+}
+
+header .logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+header nav{
+    margin-right: 50px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin: 6px 15px;
+    list-style: none;
+}
+
+header nav ul li a{
+    color: rgb(150, 233, 198);
+}
+
+.Columna {
+    margin-top: 100px;
+    display: inline-flex;
+    text-align: center;
+}
+
+aside{
+    border: 2px solid;
+    border-color: rgb(105, 98, 173);
+    height: 60%;
+    margin: 10px;
+    padding: 10px;
+    height: 1200px;
+    width: 18%;
+}
+
+aside img{
+    width: 260px;
+}
+
+main {
+    display: flex;
+    width: 96%;
+    justify-content: center;
+}
+
+.Titulo {
+    width: 1000px;
+    height: 32px;
+}
+
+p{
+    margin: 10px;
+    text-align: center;
+}
+
+section{
+    border-bottom: 2px solid;
+    border-color: rgb(105, 98, 173);
+}
+
+section img{
+    width: 500px;
+}
+
+section article img{
+    width: 160px;
+    justify-content: flex-start;
+}
+
+footer{
+    background-color: rgb(108, 34, 166);
+    height: 100px;
+    text-align: center;
+    padding-top: 5px;
+    bottom: 0;
+}
+
+footer h4{
+    color: rgb(247, 247, 247);
+}
+
+footer img{
+    width:  30px;
+    margin: 5px;
+}
